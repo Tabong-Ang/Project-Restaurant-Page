@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: url(./pexels-narda-yescas-724842-1566837.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: rgb(5, 5, 85);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    background-color: rgb(5, 5, 85);
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#design {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#mylink {
+    color: aqua;
+}
+
+footer {
+    background-color: rgb(5, 5, 85);
+}
+
